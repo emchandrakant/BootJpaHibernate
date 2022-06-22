@@ -7,7 +7,6 @@ import javax.persistence.Id;
 public class User {
 	
 	@Id
-	//@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 	private String name;
 	private int age;
