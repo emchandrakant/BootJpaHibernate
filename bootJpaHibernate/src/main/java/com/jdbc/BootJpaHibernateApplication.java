@@ -59,7 +59,6 @@ public class BootJpaHibernateApplication {
 			System.out.println("No user to deleted with that Id");
 		}
 		
-		//Custom finder methods
 		List<User> result2=userRepo.findByCity("kada");
 		result2.forEach(e->System.out.println(e));
 	

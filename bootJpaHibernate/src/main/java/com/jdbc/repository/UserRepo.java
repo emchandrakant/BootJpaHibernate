@@ -10,7 +10,6 @@ import com.jdbc.entity.User;
 
 public interface UserRepo extends CrudRepository<User, Integer>{
 	
-	//Custom finder method
 	public List<User> findByCity(String city);
 	public List<User> findByNameAndCity(String name, String city);
 	
